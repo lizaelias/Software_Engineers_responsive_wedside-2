@@ -39,9 +39,47 @@
         margin: 10px auto;
     }
 
-    /* banner section response strat here  */
+    /* banner section response end here  */
 
+     /* features section response start here  */
 
+     .Features-container{
+      flex-direction: column;
+       
+      }
+
+      .Features-img-container{
+       
+        grid-template-columns:1fr;
+        margin-bottom: 20px;
+     
+    
+    
+    }
+
+    .Features-content-container{
+      
+        margin-left: 0px;
+        
+    
+     }
+
+       /* features section response end here  */
+
+       /* logo section response start here  */
+        .some-facts{
+
+            margin-left: 100px;
+        }
+       .logo-container{
+       flex-direction: column;
+       
+       gap: 10px;
+       width: 100%;
+       margin-left: 100px;
+       }
+
+       /* logo section response start here  */
 
   } 
 
@@ -72,13 +110,34 @@
 
 
   /* banner section response strat here  */
-    .banner-container{
-        width: 100%;
-        margin: 10px auto;
-    }
+  
+  
+   
 
     /* banner section response strat here  */
-    
+
+
+     /* features section response start here  */
+
+        .Features-img-container{
+         
+          grid-template-columns:repeat(2, 1fr);
+          margin-bottom: 20px;
+       
+      
+      
+      }
+  
+      .Features-content-container{
+        
+          margin-left: 0px;
+          
+      
+       }
+  
+         /* features section response end here  */
+            
+         /* logo container style strat here  */
     
 
   } 
