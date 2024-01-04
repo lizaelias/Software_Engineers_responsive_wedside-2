@@ -43,7 +43,8 @@
 
      /* features section response start here  */
 
-     .Features-container{
+     .Features-container,
+     .experience-section-container{
       flex-direction: column;
        
       }

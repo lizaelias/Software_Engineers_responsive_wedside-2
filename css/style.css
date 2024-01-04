@@ -77,7 +77,7 @@ width: 50%;
         margin: 0 auto;
     }
      .banner-context{
-        border: 1px solid red;
+       
         width: 600px;
         text-align: center;
         margin: 30px auto;
@@ -96,7 +96,7 @@ width: 50%;
      .banner-context-desction{
         text-align: center;
         width:550px ;
-        margin: 0 auto;
+        margin: 10px auto;
         
         color:#727272;
         font-size: 16px;
@@ -111,7 +111,7 @@ width: 50%;
         padding: 15px;
         text-align: center;
         color: white;
-        margin: 0 auto;
+        margin: 10px auto;
         border-radius: 5px;
     }
     .banner-img img{
@@ -133,7 +133,7 @@ width: 50%;
   }
 
 .Features-img-container{
-    border: 1px solid red;
+   
     width: 50%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -150,7 +150,7 @@ width: 50%;
 
 
  .Features-content-container{
-    border: 1px solid green;
+    
     width: 50%;
     margin-left: 40px;
     
@@ -210,7 +210,108 @@ width: 50%;
  
       /* <!-- Some Facts section end here  --> */
 
+       
 
+      /* Experience section start here */
+         
+      .experience-section-container{
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+      }
+
+      .experience-section-container-context{
+        
+        width: 50%;
+      }
+
+      .experience-section-container-context,div >h1{
+        font-size: 45px;
+        color: #131313;
+         font-weight: 700;
+        
+      }
+      .h1{
+        border-left: 3px solid#FF900E;
+        
+      }
+
+    
+
+      .experience-section-container-context > p{
+        font-size: 16px;
+       color: #727272;
+          font-weight: 400;
+         line-height: 26px; 
+      }
+
+      .context-box{
+        width: 586px;
+        background-color: aliceblue;
+        box-shadow: 0px 0px 20px 0px wheat;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+      }
+
+      .context-box > h3{
+        font-size: 20px;
+       color:#131313;
+       font-weight: 600; 
+
+      }
+
+      .context-box >p{
+        font-size: 16px;
+      color: #727272;
+        font-weight: 400;
+        line-height: 26px;
+      }
+     
+      .experience-img-section{
+
+        
+        width: 50%;
+        margin-left: 50px;
+
+      }
+      .experience-img-section img{
+        width: 100%;
+        border-radius: 5px;
+        
+      }
+
+      .img-btn-stle{
+        background-color: #FF900E;
+        width: 250px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 8px;
+        color: white;
+        position: relative;
+        top: -50px;
+        left: -40px;
+        
+      }
+      .img-btn-stle >h1{
+        margin: 0px;
+        padding-top: 10px;
+        color: white;
+      }
+      .img-btn-stle >p{
+        margin: 0px;
+        padding-bottom: 10px;
+        
+      }
+        
+
+
+
+
+
+
+      /* Experience section start end */
 
        /* Our Sponspors section start here */
          .our-hading-nameing{
