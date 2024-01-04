@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@400;500;700;900&family=Work+Sans:wght@500;600;700;900&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.nav-container{
+    border: 1px solid red;
+    min-height: 40px;
+    display: flex;
+    max-width: 1450px;
+    margin: 0 auto;
+    
+}
+
+.navtilte{
+border: 1px solid green ;
+display: flex;
+justify-items: center;
+gap: 10px;
+
+width: 50%;
+}
+.navtilte p{
+    font-weight: 700;
+    font-size: 20px;
+}
+.navtilte img{
+    width: 50px;
+    
+}
+
+
+.nav-section {
+    border: 1px solid yellow ;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto;
+   
+   
+
+}
+
+.nav-section a{
+    text-decoration: none;
+   
+}
