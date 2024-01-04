@@ -209,3 +209,57 @@ width: 50%;
    }
  
       /* <!-- Some Facts section end here  --> */
+
+
+
+       /* Our Sponspors section start here */
+         .our-hading-nameing{
+            max-width: 1250px;
+            margin: 0 auto;
+            text-align: center;
+          line-height: 26px;
+          padding: 30px;
+          
+         }
+
+         .our-hading-nameing > h{
+            font-size: 45px;
+         
+         font-weight: 700;
+         color: #131313;
+         }
+
+         .our-hading-nameing > p{
+            font-size: 16px;
+            color: #727272;
+            font-weight: 400;
+         }
+
+         .company-logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 40px;
+           
+         }
+
+         .company-logo img{
+            width: 166.757px;
+            height: 50px;
+         }
+
+         .copy-right{
+            background-color: bisque;
+            padding: 5px;
+            margin-top: 100px;
+            border-radius: 8px;
+           
+         }
+         .copy-right p{
+            font-size: 20px;
+            text-align: center;
+            font-weight: 400;
+            color: #727272;
+         }
+
+       /* Our Sponspors section end here   */

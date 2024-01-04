@@ -81,6 +81,12 @@
 
        /* logo section response start here  */
 
+       .company-logo{
+        flex-direction: column;
+        gap: 20px;
+       
+     }
+
   } 
 
 
